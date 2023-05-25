@@ -48,9 +48,12 @@ function Login() {
                         </FormGroup>
                         <Link to="#">forgot password?</Link>
                         <br />
-                        <button>
-                            log in
-                        </button>
+                        <Link to="/users">
+                            <button>
+                                log in
+                            </button>
+                        </Link>
+
                     </Form>
                 </Col>
             </Row>
