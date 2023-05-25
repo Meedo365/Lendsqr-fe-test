@@ -36,7 +36,7 @@ function UserDetails() {
                 <Col className="user-container" lg='9' >
                     <div className="m-4 user-container-border ">
                         <div className="page-back">
-                            <Link to={"/dashboard"}>
+                            <Link to={"/users"}>
                                 <span style={{ color: "initial" }}>
                                     <img src={Back} alt="back" className="me-2" /> Back to Users
                                 </span>
