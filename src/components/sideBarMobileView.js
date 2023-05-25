@@ -34,7 +34,7 @@ function SidebarMobile() {
             </Link>
 
 
-            <Link to="/dashboard">
+            <Link to="#">
                 <span className="flex">
                     <img src={home} alt="" />
                     <p>Dashboard </p>
@@ -44,7 +44,7 @@ function SidebarMobile() {
             <ul>
                 <h6>Customers</h6>
                 <li id="active-link">
-                    <Link to="/dashboard">
+                    <Link to="/users">
                         <span className="flex">
                             <img src={users} alt="" />
                             <p>users</p>
